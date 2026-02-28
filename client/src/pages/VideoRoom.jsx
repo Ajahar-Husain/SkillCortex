@@ -5,7 +5,7 @@ import Peer from 'simple-peer';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Mic, MicOff, Video as VideoIcon, VideoOff, PhoneOff, MonitorUp } from 'lucide-react';
 
-const SOCKET_SERVER_URL = "http://localhost:3001";
+const SOCKET_SERVER_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
 
 export default function VideoRoom() {
     const { roomId } = useParams();
