@@ -31,3 +31,8 @@ coverage/
 *.ntvs*
 *.njsproj
 *.sln
+
+.kiro/specs/blog-comprehensive-content
+SkillCortex-PRD.pdf
+fix-jobs.ps1
+scripts
